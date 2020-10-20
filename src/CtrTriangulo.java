@@ -2,7 +2,7 @@
 import java.awt.event.ActionEvent;
 
 /**
- * Description of the Class
+ * Classe de Controle da Aplicação.
  *
  * @author Osmar de Oliveira Braz Junior
  * @version 1.0
@@ -13,7 +13,7 @@ public class CtrTriangulo {
     private IFrmTriangulo visaoFrmTriangulo;
 
     /**
-     * Constructor for the CtrTriangulo object
+     * Construtor para o objeto CtrTriangulo.
      */
     public CtrTriangulo() {
         // Instancia a janela
@@ -22,6 +22,9 @@ public class CtrTriangulo {
         defineEventos();
     }
 
+    /**
+     * Associa o tratamento de eventos aos componentes.
+     */
     public void defineEventos() {
         // Associa os eventos aos componentes
         getVisaoFrmTriangulo().setCalcularActionListener(
@@ -66,7 +69,8 @@ public class CtrTriangulo {
         EntTriangulo triangulo = new EntTriangulo();
         triangulo.setBase(getVisaoFrmTriangulo().getBase());
         triangulo.setAltura(getVisaoFrmTriangulo().getAltura());
-        getVisaoFrmTriangulo().setArea(triangulo.getArea());
+        double area = triangulo.getArea();
+        getVisaoFrmTriangulo().setArea(area);
     }
 
     /**

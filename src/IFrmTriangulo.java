@@ -2,7 +2,7 @@
 import java.awt.event.ActionListener;
 
 /**
- * Description of the Interface
+ * Classe da Interface da Janela da Aplicação.
  *
  * @author Osmar de Oliveira Braz Junior
  * @version 1.0

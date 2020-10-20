@@ -1,6 +1,6 @@
 
 /**
- * Description of the Class
+ * Classe da Entidade da Aplicação.
  *
  * @author Osmar de Oliveira Braz Junior
  * @created 14 de Abril de 2007
@@ -12,7 +12,7 @@ public class EntTriangulo {
     private double base;
 
     /**
-     * Constructor for the EntTriangulo object
+     * Construtor para o objeto EntTriangulo.
      */
     public EntTriangulo() {
         setBase(0);
