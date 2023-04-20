@@ -29,4 +29,4 @@ Os arquivos *.EAP são os projetos do sistema utilizando ferramanta CASE Enterpr
 
 ## Outras arquivos
 - pom.xml - Arquivo de configuração da ferramenta de automação Maven.
-- *.BAT - Arquivos de lote(Batch) de console para tarefas compilar, executar, documentar, empacotar e limpar o projeto.
+- *.bat - Arquivos de lote(Batch) de console para tarefas compilar, executar, documentar, empacotar e limpar o projeto.
