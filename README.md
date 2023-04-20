@@ -12,12 +12,16 @@
 
 ## Diagramas
 
+- Estrutura geral do projeto<br>
 ![Estrutura geral do projeto](estruturageral.png)
 
+- Diagrama de caso de uso<br>
 ![Diagrama de caso de uso](diagramacasodeuso.png)
 
+- Diagrama de classe<br>
 ![Diagrama de classe](diagramadeclasse.png)
 
+- Diagrama de sequência<br>
 ![Diagrama de sequência](diagramasequencia.png)
 
 ## Arquivos do projeto
