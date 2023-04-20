@@ -58,6 +58,7 @@ public class FrmTriangulo extends JFrame implements IFrmTriangulo {
         this.setSize(new Dimension(209, 180));
         this.setTitle("Calculo Area Triangulo");
         this.addWindowListener(new WindowAdapter() {
+            @Override
             public void windowClosing(WindowEvent e) {
                 System.exit(0);
             }
@@ -98,6 +99,7 @@ public class FrmTriangulo extends JFrame implements IFrmTriangulo {
      *
      * @param e Description of the Parameter
      */
+    @Override
     protected void processWindowEvent(WindowEvent e) {
         super.processWindowEvent(e);
         if (e.getID() == WindowEvent.WINDOW_CLOSING) {
@@ -108,13 +110,15 @@ public class FrmTriangulo extends JFrame implements IFrmTriangulo {
     /*
 	* Exibe a janela
      */
+    @Override
     public void exibir() {
         this.setVisible(true);
     }
 
     /**
-     * Limpa todos os component JTextField do formulario
+     * Limpa todos os component JTextField do formulário
      */
+    @Override
     public void limparCampos() {
         Component[] componentes = this.getContentPane().getComponents();
         for (int i = 0; i < componentes.length; i++) {
@@ -127,27 +131,32 @@ public class FrmTriangulo extends JFrame implements IFrmTriangulo {
     }
 
     // Gets e Sets dos atributos que representam a entidade e os componentes
+    @Override
     public double getBase() {
         return Double.parseDouble(jTBase.getText());
     }
 
+    @Override
     public double getAltura() {
         return Double.parseDouble(jTAltura.getText());
     }
 
+    @Override
     public void setBase(double base) {
         this.jTBase.setText(base + "");
     }
 
+    @Override
     public void setAltura(double altura) {
         this.jTAltura.setText(altura + "");
     }
 
+    @Override
     public void setArea(double area) {
         this.jLArea.setText("Area :" + area);
     }
 
-    // Operacoes para configurar os listeners que compoe a logica de apresentacao
+    // Operações para configurar os listeners que compoe a lógica de apresentação
     public void setCalcularActionListener(ActionListener listener) {
         this.jBCalcular.addActionListener(listener);
     }

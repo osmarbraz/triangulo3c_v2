@@ -29,6 +29,7 @@ public class CtrTriangulo {
         // Associa os eventos aos componentes
         getFrmTriangulo().setCalcularActionListener(
                 new java.awt.event.ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 jBCalcular_actionPerformed(e);
             }
@@ -37,6 +38,7 @@ public class CtrTriangulo {
 
         getFrmTriangulo().setLimparActionListener(
                 new java.awt.event.ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 jBLimpar_actionPerformed(e);
             }
@@ -45,6 +47,7 @@ public class CtrTriangulo {
 
         getFrmTriangulo().setFecharActionListener(
                 new java.awt.event.ActionListener() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 jBFechar_actionPerformed(e);
             }

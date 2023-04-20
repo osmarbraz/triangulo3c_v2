@@ -12,7 +12,7 @@ public class EntTriangulo {
     private double base;
 
     /**
-     * Construtor para o objeto EntTriangulo.
+     * Constructor for the EntTriangulo Object.
      */
     public EntTriangulo() {
         setBase(0);
