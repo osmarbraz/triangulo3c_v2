@@ -31,6 +31,7 @@ Os arquivos *.EAP são os projetos do sistema utilizando ferramanta CASE Enterpr
 - Arquivo Modelo1.EAP - Projeto que não especifica classes externas no projeto. (E.g.: JButton, JLabel, ...).
 - Arquivo Modelo2.EAP - Projeto que especifica classes externas no projeto. (E.g.: JButton, JLabel, ...).
 
-## Outras arquivos
+## Outros arquivos
+
 - pom.xml - Arquivo de configuração da ferramenta de automação Maven.
 - *.bat - Arquivos de lote(Batch) de console para tarefas compilar, executar, documentar, empacotar e limpar o projeto.
